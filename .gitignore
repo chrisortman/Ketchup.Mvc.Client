@@ -1,0 +1,11 @@
+obj
+[Bb]in
+Debug
+*.user
+_ReSharper.*
+*.swp
+*.sln.cache
+*.suo
+logs
+build
+TestResults
