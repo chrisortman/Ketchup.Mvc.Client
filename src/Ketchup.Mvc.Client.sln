@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.Client", "Mvc.Client\Mvc.Client.csproj", "{533AE7AC-E341-4705-9FB5-08641B006F75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ketchup.Mvc.Client", "Ketchup.Mvc.Client\Ketchup.Mvc.Client.csproj", "{533AE7AC-E341-4705-9FB5-08641B006F75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C7A0293-5C07-4DD9-8754-44F02A6C83FB}"
+	ProjectSection(SolutionItems) = preProject
+		Ketchup.Mvc.Client\Ketchup.Mvc.Client.nuspec = Ketchup.Mvc.Client\Ketchup.Mvc.Client.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
