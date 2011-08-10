@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Ketchup.Mvc.Client</id>
+    <version>0.5.0</version>
+    <authors>Chris Ortman</authors>
+    <owners>Chris Ortman</owners>
+    <projectUrl>http://github.com/chrisortman/Ketchup.Mvc.Client.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+        Aggregator project for several client side javascript / css libraries.
+        The main goal is to group these libraries together and to allow me to change the
+        folder structure where they get installed to in your project.
+    </description>
+    <tags>asp.net mvc, javascript</tags>
+  </metadata>
+    <files>
+        <file src="Scripts\*.js" target="Content\Content\javascripts" />
+        <file src="Scripts\i18n\grid.locale-en.js" target="Content\Content\javascripts\i18n" />
+        <file src="Content\jquery.jqGrid\*.*" target="Content\Content\stylesheets" />
+        <file src="Content\themes\custom\*.css" target="Content\Content\stylesheets\jqui" />
+        <file src="Content\themes\custom\images\*.*" target="Content\Content\stylesheets\jqui\images" />
+    </files>
+</package>
